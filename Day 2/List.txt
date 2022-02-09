@@ -1,0 +1,15 @@
+Day 2 Objective Practice
+
+  1 HTML ELEMENTS (square bullets)
+    *list (3 different types)
+    *table
+    *multi media elements (shows italic)
+  2 HTML ATRIBUTES
+
+  3 CSS
+    *SELECTOR
+    *DECLARATION
+    *PROPERTY
+    *VALUE
+  	
+  4 Publish your website
