@@ -1,0 +1,129 @@
+.footer {
+  font-weight: bold ;
+}
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:50px;
+}
+
+.pinkbox{
+  height:550px;
+  width:100%;
+  background-color: pink;
+  border:2px solid black;
+  boxing-size: border-box;
+
+}
+
+.sub1 {
+  background-color: pink;
+  width:40%;
+  height:70%;
+
+  float: left;
+}
+
+.img3{
+  background-color: pink;
+  width:110%;
+  height:2%;
+  margin-left:3.2%
+  margin-top:3.2%;
+  margin-bottom: 20%
+  margin-right:7%;
+  float: left;
+  border: 3px solid blue;
+
+}
+
+.details{
+  width:100;
+  margin-left: 45%;
+  margin-bottom: 15%;
+   color: white;
+   display: inline-block;
+    float:left;
+    max-width: 100%;
+    width: 500px;
+    position:relative;
+
+  }
+
+div.wrap {
+  height:200px;
+  max-width:100%;
+  width:100%;
+  align:left;
+  float: left;
+}
+
+.img4{
+  background-color: pink;
+  width:85%;
+  height:73%;
+float:right;
+  margin-right:7%;
+    margin-left: 55%;
+      border: 3px solid blue;
+      position: sticky;
+    }
+
+
+    figure img {
+        vertical-align: top;}
+
+.sub2 img {
+
+  width:70%;
+  height: 100%;
+}
+
+.sub2 {
+  width:100%
+  height:36%;
+  float: left;
+
+  font-size: 2vw;
+  font-size: 2vh;
+}
+
+.sub4{
+  width: 20%;
+
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#threebyone {
+  width:60%;
+  background-color:grey;
+  margin-botton: 3%;
+}
+.threebyone {
+
+  width:29%;
+  border: 6px solid blue;
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: grey;
+  float: center;
+  margin-bottom: 5%;
+
+}
+
+.hanging-indent {
+  text-indent: -3em;
+   margin-left: 3em;
+}
+
+.logo {
+  width:5%;
+}
