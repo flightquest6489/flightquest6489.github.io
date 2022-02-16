@@ -6,6 +6,9 @@
 
  .body-bg {
     height:400px;
+} 
+
+.skewed-header > .box-wrapper > .body-bg {
     position: absolute;
     top: 0 ;
     bottom: 0;
@@ -17,8 +20,7 @@
     background-size: 100%;
     transform-origin: top left;
     background-image: url('photos/pexels-maxime-francis-2246476.jpg');
-} 
-
+}
 
 .skewed-header > .skewed-header-wrapper {
     position: absolute;
