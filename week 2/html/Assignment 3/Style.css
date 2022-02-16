@@ -35,3 +35,10 @@
     text-align: center ;
 
 }
+.sometext {
+    position:relative;
+    height: 300px;
+    width: 300px
+    weight: 3em;
+    padding-bottom: 20%;
+}
