@@ -19,6 +19,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     transform-origin: top left;
+    background-image: url('photos/pexels-maxime-francis-2246476.jpg')
 }
 
 .skewed-header > .skewed-header-wrapper {
