@@ -4,11 +4,11 @@
     overflow:hidden;
 }
 
-/* .body-bg {
+ .body-bg {
     height:400px;
-} */
+} 
 
-.skewed-header > .body-bg {
+.skewed-header > .box-wrapper > .body-bg {
     position: absolute;
     top: 0 ;
     bottom: 0;
