@@ -4,7 +4,7 @@
     height:400px;
 } 
 
-.box > .box-wrapper > .body-bg {
+ .body-bg {
     position: absolute;
     top: 0 ;
     bottom: 0;
@@ -26,8 +26,7 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.skewed-header > .skewed-header-wrapper > .box > .box-wrapper {
+.box > .box-wrapper {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     width: 175px;
