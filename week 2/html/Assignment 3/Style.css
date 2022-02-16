@@ -25,7 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
+  overflow:visible ;
 }
 .box > .box-wrapper {
     border-bottom-left-radius: 2px;
