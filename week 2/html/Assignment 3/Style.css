@@ -38,7 +38,7 @@
 .sometext {
     position:relative;
     height: 300px;
-    width: 300px
-    weight: 3em;
-    padding-bottom: 20%;
+    width: 300px;
+    background: rgba(0, 0, 0, .15);
+    padding-bottom: 200px;
 }
