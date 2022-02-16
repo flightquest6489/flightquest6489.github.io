@@ -4,7 +4,7 @@
     height:400px;
 } 
 
- .body-bg {
+ .body-bg img{
     position: absolute;
     top: 0 ;
     bottom: 0;
@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     transform-origin: top left;
-    background-image: url('photos/picture.jpg');
+    
 }
 
 
