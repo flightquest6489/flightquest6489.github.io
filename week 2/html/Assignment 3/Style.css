@@ -45,7 +45,7 @@
     margin-bottom: 60%;
     margin-right: 80%;
     margin-left:80%;
-    background-image:url("../../clockimage.png");
+    /* background-image:url("../../clockimage.png"); */
     background-color: black;
 
 }
@@ -68,7 +68,7 @@
     margin-bottom: 60%;
     margin-right: 80%;
     margin-left:80%;
-    background-image:url("../../hand.png");
+    /* background-image:url("../../hand.png"); */
 }
 
 .hand2 {
@@ -79,7 +79,7 @@
     margin-bottom: 60%;
     margin-right: 80%;
     margin-left:80%;
-    background-image:url("../../hand.png");
+    /* background-image:url("../../hand.png"); */
     transform-origin: 50% 13rem;
     top: calc(50% - 13rem);
     animation: big-tick 3600s infinite linear;
