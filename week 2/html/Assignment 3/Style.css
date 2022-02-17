@@ -39,7 +39,7 @@
 
 .clock {
     position:relative;
-    width: 100%;
+    width: 100px;
     height: 100%;
     margin-top: 40%;
     margin-bottom: 60%;
@@ -47,13 +47,14 @@
     margin-left:80%;
     /* background-image:url("../../clockimage.png"); */
     /* background-color: black; */
+    background: rgba(76, 128, 28, 0.15);
    
   
 }
 
 .hand2 {
     position:relative;
-    width:30%;
+    width:30px;
     height:14rem;
   
     /* background-image:url("../../hand.png"); */
@@ -65,7 +66,7 @@
 
 .hand {
     position:relative;
-    width: 50%;
+    width: 50px;
     height: 11rem;
     transform-origin:50% 10rem;
     top: calc(50% - 10rem);
