@@ -48,6 +48,7 @@
     /* background-image:url("../../clockimage.png"); */
     /* background-color: black; */
     background: rgba(204, 235, 175, 0.742);
+    transform-origin: bottom left;
    
   
 }
