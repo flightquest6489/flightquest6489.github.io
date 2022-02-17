@@ -36,11 +36,12 @@
 
 }
 .sometext {
-    position:absolute;
+    position:fixed;
     height: 300px;
     width: 300px;
     background: rgba(76, 128, 28, 0.15);
-    padding: 200px 200px 20px 800px;
+    bottom: 0;
+    right: 0;
     border-color: azure;
 
 }
