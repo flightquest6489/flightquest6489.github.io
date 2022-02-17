@@ -46,15 +46,12 @@
     margin-right: 80%;
     margin-left:80%;
     /* background-image:url("../../clockimage.png"); */
-    background-color: black;
+    /* background-color: black; */
     .hand2 {
         position:relative;
         width:30%;
         height:14rem;
-        margin-top: 40%;
-        margin-bottom: 60%;
-        margin-right: 80%;
-        margin-left:80%;
+      
         /* background-image:url("../../hand.png"); */
         transform-origin: 50% 13rem;
         top: calc(50% - 13rem);
@@ -69,10 +66,7 @@
         top: calc(50% - 10rem);
         animation: big-tick 43200s infinite linear;
         animation-delay: -36873s;
-        margin-top: 40%;
-        margin-bottom: 60%;
-        margin-right: 80%;
-        margin-left:80%;
+  
         /* background-image:url("../../hand.png"); */
     }
 }
