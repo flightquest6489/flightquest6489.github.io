@@ -35,11 +35,62 @@
     text-align: center ;
 
 }
+
+.clock {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 40%;
+    margin-bottom: 60%;
+    margin-right: 80%;
+    margin-left:80%;
+    background-image:url("clockimage.png");
+    background-color: black;
+
+}
+@keyframes big-tick {
+    0% {transform:rotate(0deg);}
+    25%{tranform:rotate(90deg);}
+    50%{tranform:rotate(180deg);}
+    75%{tranform:rotate(270deg);}
+    100%{transform:rotate(360deg);}
+}
+.hand {
+    position:relative;
+    width: 50%;
+    height: 11rem;
+    transform-origin:50% 10rem;
+    top: calc(50% - 10rem);
+    animation: big-tick 43200s infinite linear;
+    animation-delay: -36873s;
+    margin-top: 40%;
+    margin-bottom: 60%;
+    margin-right: 80%;
+    margin-left:80%;
+    background-image:url("hand.png");
+}
+
+.hand2 {
+    position:relative;
+    width:30%;
+    height:14rem;
+    margin-top: 40%;
+    margin-bottom: 60%;
+    margin-right: 80%;
+    margin-left:80%;
+    background-image:url("hand.png");
+    transform-origin: 50% 13rem;
+    top: calc(50% - 13rem);
+    animation: big-tick 3600s infinite linear;
+    animation-delay: -873s;
+}
 .sometext {
     position:fixed;
     height: 300px;
     width: 300px;
     background: rgba(76, 128, 28, 0.15);
+    top: 80%;
+    right: 80%;
     bottom: 0;
     right: 0;
     border-color: azure;
