@@ -21,7 +21,7 @@
 
 
  .box {
-  width: 500px;
+  width: 5000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@
 
 .clock {
     position:relative;
-    width: 100px;
+    width: 1000px;
     height: 100%;
     margin-top: 40%;
     margin-bottom: 60%;
@@ -48,13 +48,13 @@
     /* background-image:url("../../clockimage.png"); */
     /* background-color: black; */
     background: rgba(204, 235, 175, 0.742);
-    transform-origin: bottom left;
+    transform-origin: bottom right;
    
   
 }
 
 .hand2 {
-    position: 10px 20 px 10px relative;
+    position: relative;
     width:30px;
     height:14rem;
   
