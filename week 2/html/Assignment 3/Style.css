@@ -40,7 +40,7 @@
     height: 300px;
     width: 300px;
     background: rgba(76, 128, 28, 0.15);
-    padding-bottom: 200px;
+    padding: 200px 200px 20px 800px;
     border-color: azure;
 
 }
