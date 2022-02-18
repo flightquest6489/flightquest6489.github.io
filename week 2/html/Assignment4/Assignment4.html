@@ -51,7 +51,7 @@
   <i class="fa fa-indent" aria-hidden="true"></i>
 
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId2">
     More Information
   </button>
   
@@ -83,7 +83,7 @@
   <script>
       $('#exampleModal').on('show.bs.modal', event => {
           var button = $(event.relatedTarget);
-          
+          var modal = (this);
           // Use above variables to manipulate the DOM
           
       });
@@ -92,7 +92,7 @@
   <script>
     $('#exampleModal2').on('show.bs.modal', event => {
         var button = $(event.relatedTarget);
-        
+        var modal = (this);
         // Use above variables to manipulate the DOM
         
     });
