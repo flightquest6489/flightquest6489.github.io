@@ -47,6 +47,45 @@
           </div>
       </div>
   </div>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+    More Information
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                  <div class="modal-header">
+                          <h5 class="modal-title">Image2</h5>
+                          <img src="pexels-saveurs-secretes-5560763.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+
+                      </div>
+              <div class="exampleModal">
+                  <div class="container-fluid">
+                      Besides traveling to sightseeing places in india, the cuisine is a must try. The South Indian crepes called Dosa are a must. The North indian Naan are also a must to try out.
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <script>
+      $('#exampleModal').on('show.bs.modal', event => {
+          var button = $(event.relatedTarget);
+          
+          // Use above variables to manipulate the DOM
+          
+      });
+  </script>
   
   <script>
       $('#exampleModal').on('show.bs.modal', event => {
