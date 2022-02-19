@@ -1,0 +1,13 @@
+.header p{
+    font-family: cursive;
+    font-size: 15px;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link a{
+    
+}
