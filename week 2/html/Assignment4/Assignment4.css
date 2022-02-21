@@ -9,12 +9,21 @@ body{background-color:lightgrey}
     border-radius:12px;
 }
 
+.btn2 {
+    textdecoration:none;
+    font-size: 30px;
+    background-color:black;
+    padding:10px;
+    border-radius:12px;
+}
+
+
 .modalwindow1 {
     
-    position:fixed;
-    top: 60%;
+    position:relative flex;
+    top: 40%;
     bottom: 40%;
-    right: 80%;
+    right: 60%;
     left: 40%;
     pointer-events:none;
     opacity:0;
@@ -28,10 +37,10 @@ body{background-color:lightgrey}
 
 .modalwindow2 {
     
-    position:fixed;
-    top: 60%;
+    position:relative flex;
+    top: 40%;
     bottom: 40%;
-    right: 10%;
+    right: 60%;
     left: 60%;
     pointer-events:none;
     opacity:0;
