@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="Assignment4.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -15,91 +15,48 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
   
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
-    More Information
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                  <div class="modal-header">
-                          <h5 class="modal-title">Visit India</h5>
-                          <img src="pexels-sudipta-mondal-1603650.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                              </button>
-                      </div>
-              <div class="exampleModal">
-                  <div class="container-fluid">
-                     There is alot to do in India, we can go to the Taj Mahal or visit the Caves of Ellora.
-                  </div>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <i class="fa fa-indent" aria-hidden="true"></i>
-
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
-    More Information
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                  <div class="modal-header">
-                          <h5 class="modal-title">Eating in India</h5>
-                          <img src="pexels-saveurs-secretes-5560763.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                              </button>
-
-                      </div>
-              <div class="exampleModal">
-                  <div class="container-fluid">
-                      Besides traveling to sightseeing places in india, the cuisine is a must try. The South Indian crepes called Dosa are a must. The North indian Naan are also a must to try out.
-                  </div>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  
-              </div>
-          </div>
-      </div>
+  <div class="" style="margin-bottom:10%; background-color:red; height:100px; padding:10%">
+    <a class="btn1" href="#tomodal1">check</a>
   </div>
   
-  <script>
-      $('#exampleModal').on('show.bs.modal', event => {
-          var button = $(event.relatedTarget);
-          var modal = (this);
-          // Use above variables to manipulate the DOM
-          
-      });
-  </script>
-   
- <script>
-    $('#exampleModal').on('show.bs.modal', event => {
-        var button = $(event(relatedTarget));
-        var modal = (this);
-        // Use above variables to manipulate the DOM
-        
-    });
-</script>  
 
+  <div class="" style="margin-bottom:10%; background-color:red; height:100px; padding:10%">
+    <a class="btn2" href="#tomodal2"></a>
+  </div>
   
+  <div id="tomodal1" class="modalwindow1">
+      <div class="msgblock">
+          <a href="#">x</a>
+          <h1>Visiting India</h1>
+          <img src="week 2/html/Assignment4/pexels-sudipta-mondal-1603650.jpg" alt="">
+          <p>If you have a chance to visit India, make sure to take a visit at the Taj Mahal.
+          </p>
+          <a href="#">close</a>
+      </div>
+  </div>
+  <div>
+  <a href="" ><table><tr><td></td></tr></table></a>
+  </div>
+  <div id="tomodal2" class="modalwindow2">
+    <div class="msgblock2">
+      <a href="#">x</a>
+      <h1>Eating in Indian Cuisine</h1>
+      <img src="week 2/html/Assignment4/pexels-saveurs-secretes-5560763.jpg" alt="">
+      <p>If you have a chance to eat in indian cuisine, do check out south indian crepes called Dosa, and north indian bread called naan.</p>
+      <a href="#">close</a>
+    </div>
+  </div>
 
-
+  <br>
+  <p style="border-weight:4px; align-text:center">A destination such as india will have a variety of different experiences
+    included, culture, taste, and experiential experiences like different variety
+    in eating style and lifestyle from villages to modern cities, to the dessert to the himalayas.
+    Food is an expedient because it is going to be different from north to south and east to west.
+    Culture will also be different because in india the language spoken from north to south and east to west
+    is of a variety and different as are the clothe style and culture.
+  </p>
   </body>
 </html>

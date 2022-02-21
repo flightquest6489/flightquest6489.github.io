@@ -1,0 +1,61 @@
+body{background-color:lightgrey}
+
+
+.btn1 {
+    textdecoration:none;
+    font-size: 30px;
+    background-color:black;
+    padding:10px;
+    border-radius:12px;
+}
+
+.modalwindow1 {
+    
+    position:fixed;
+    top: 60%;
+    bottom: 40%;
+    right: 40%;
+    left: 40%;
+    pointer-events:none;
+    opacity:0;
+}
+
+.modalwindow1:target{
+    opacity:1;
+    pointer-events:all;
+
+}
+
+.modalwindow2 {
+    
+    position:fixed;
+    top: 60%;
+    bottom: 40%;
+    right: 40%;
+    left: 40%;
+    pointer-events:none;
+    opacity:0;
+}
+
+.modalwindow2:target{
+    opacity:1;
+    pointer-events:all;
+
+}
+
+
+.msgblack {
+    border-radius:8px;
+    background-color: white;
+    width:50%;
+    margin:auto;
+    margin-top:10%;
+    padding: 4%;
+}
+
+.msgblack p, a {
+    background-color: lightblue;
+    font-size: 10px;
+    padding: 4px;
+    border-radius:12px;
+}
