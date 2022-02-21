@@ -14,7 +14,7 @@ body{background-color:lightgrey}
     position:fixed;
     top: 60%;
     bottom: 40%;
-    right: 40%;
+    right: 80%;
     left: 40%;
     pointer-events:none;
     opacity:0;
@@ -31,8 +31,8 @@ body{background-color:lightgrey}
     position:fixed;
     top: 60%;
     bottom: 40%;
-    right: 40%;
-    left: 40%;
+    right: 10%;
+    left: 60%;
     pointer-events:none;
     opacity:0;
 }
