@@ -44,7 +44,7 @@ body{background-color:lightgrey}
 }
 
 
-.msgblack {
+.msgbl0ck {
     border-radius:8px;
     background-color: white;
     width:50%;
@@ -53,7 +53,7 @@ body{background-color:lightgrey}
     padding: 4%;
 }
 
-.msgblack p, a {
+.msgblock2 p, a {
     background-color: lightblue;
     font-size: 10px;
     padding: 4px;
