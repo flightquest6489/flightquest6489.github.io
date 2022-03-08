@@ -14,4 +14,5 @@ mylist[1:-1] = mylist2
 print(list1)
 mylist2.append(5)
 mylist2.pop(2)
+mylist[0:-1] = mylist2
 print(mylist2)
