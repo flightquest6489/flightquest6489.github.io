@@ -1,28 +1,14 @@
-function conversionTable(tagId, from){
-    var first = document.getElementById("Input1")
-  
-    from=first;
-    var conv = document.getElementById(tagId);
-    var tab = document.getElementById("table");
-    var bod = document.createElement("tbody");
-    var thed = document.createElement("thead");
-    tab.appendChild(thed);
-    tab.appendChild(bod);
-    var tr = document.createElement("tr");
-    thed.appendChild(tr);
-    var th = document.createElement("th");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode("Celsius"));
-    th=document.createElement("th");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode("Fahrenheit"));
-    conv.appendChild(tab);
+function c2f(i){
+    var input1 = i;
+    var output1 = i * 9 / 5 + 32;
+    var printMessage = i + '\xB0c is ' output1 + ' \xB0F.';
+    console.log(printMessage);
 }
-
-    td=document.createElement("td");
-    tr.appendChild(td);
-    td.appendChild(document.createTextNode(celsiustofahrenheit(i)));
-
-function celsiustofahrenheit(c) { return Math.round((c * 1.8)+32)}
-
-from = parseInt(first.value);
+function f2c(i){
+    var input1 = i;
+    var output1 = (input1 -32) * 5 / 9;
+    var printMessage1 = output1 + '\xB0F is ' fToCel + '\xB0C.';
+    console.log(printMessage1);
+}
+c2f(60);
+f2c(45);
