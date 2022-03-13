@@ -1,39 +1,20 @@
-<script src="script.js"></script>
-<body src="css.css">
-<input type="button" value="Convert" name="B3" onclick="conversionTable('conversion')" placeholder="Enter a number here:">
-function conversionTable(tagId, from, to){
-    var first = document.getElementById("Input1")
-    var second = document.getElementById("Input2")
-    from=first;
-    to=second;
-    var conv = document.getElementById(tagId);
-    var tab = document.getElementById("table");
-    var bod = document.createElement("tbody");
-    var thed = document.createElement("thead");
-    tab.appendChild(thed);
-    tab.appendChild(bod);
-    var tr = document.createElement("tr");
-    thed.appendChild(tr);
-    var th = document.createElement("th");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode("Celsius"));
-    th=document.createElement("th");
-    tr.appendChild(th);
-    th.appendChild(document.createTextNode("Fahrenheit"));
-    conv.appendChild(tab);
-}
-for (var i = from; i<=to; i++){
-    tr.document.createElement("tr");
-    bod.appendChild(tr);
-    td = document.createElement("td");
-    tr.appendChild(td);
-    td.appendChild(document.createTextNode(i));
-    td=document.createElement("td");
-    tr.appendChild(td);
-    td.appendChild(document.createTextNode(celsiustofahrenheit(i)));
-}
-function celsiustofahrenheit(c) { return Math.round((c * 1.8)+32)}
+<head><script src="script.js" type="text/Javascript"></script>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<title> Celsius to Fahrenheit Converter</title>
+<body>
+    <form action="">
+        <p>
+            <textarea name="Input1" id="Input1" cols="10" rows="1"></textarea>
+            <textarea name="Input2" id="Input2" cols="10" rows="1"></textarea>
 
-from = parseInt(first.value);
-to = parseInt(second.value);
+            <input type="button" value="Convert" name="B3" onclick="conversionTable('conversion')" placeholder="Enter a number here:">
+            <input type="reset" value="Clear" name="B2">
+        
+        
+        
+        
+        </p>
+</form>
 </body>
+
